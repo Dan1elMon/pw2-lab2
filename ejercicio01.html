@@ -1,0 +1,22 @@
+[O<!DOCTYPE html>
+<html>
+<body>
+
+	<h1>JavaScript Dates</h1>
+	<h2>The getDay() Method</h2>
+
+	<p>The getDay() method returns the day of the week (from 0 to 6):</p>
+
+	<p id="demo"></p>
+
+	<script>
+		const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+		const d = new Date();
+		let day = weekday[d.getDay()];
+	document.getElementById("demo").innerHTML = day;
+	</script>
+
+	</body>
+</html>
+

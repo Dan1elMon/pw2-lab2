@@ -8,6 +8,10 @@
     <script src="./index.js"></script>
     </head>
 <body>
-  
+    <p>There are <span id="days-away"></span> days until the next Arequipa Day.</p>
+    <script>
+    const daysAway = getDaysAwayFromArequipaDay();
+    document.getElementById("days-away").innerHTML = daysAway;
+    </script>
 </body>
 </html>
